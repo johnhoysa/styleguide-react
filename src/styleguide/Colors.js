@@ -5,18 +5,8 @@ const Colors = () => {
   return (
     <div>
       <h1>Colors Page should include components</h1>
-      <hr></hr>
-      <Swatch
-        swatchColor="red"
-        swatchTitle="John What Up"
-        swatchDescription="Description Here"
-      />
-      <hr></hr>
-      <Swatch
-        swatchColor="blue"
-        swatchTitle="Sky Blue"
-        swatchDescription="Hex: #334455"
-      />
+      <Swatch color="red" title="John What Up" description="Description Here" />
+      <Swatch color="blue" title="Sky Blue" description="Hex: #334455" />
     </div>
   );
 };

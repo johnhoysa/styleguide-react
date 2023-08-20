@@ -6,7 +6,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      appName: "WhatWhat!",
+      appName: "DesignSystem",
       home: false,
     };
   }

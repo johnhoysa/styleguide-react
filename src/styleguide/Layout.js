@@ -2,8 +2,8 @@ import { Outlet, Link } from "react-router-dom";
 
 const Layout = () => {
   return (
-    <>
-      <nav>
+    <div>
+      <nav className="bg-amber-500">
         <ul>
           <li>
             <Link to="/colors">Colors</Link>
@@ -15,7 +15,9 @@ const Layout = () => {
       </nav>
 
       <Outlet />
-    </>
+
+      <footer>Footer content</footer>
+    </div>
   );
 };
 
