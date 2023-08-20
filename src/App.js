@@ -1,24 +1,25 @@
-import React from "react";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-//
-import Colors from "./styleguide/Colors";
-//
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">App.JS file here</header>
-      <hr></hr>
-      <Link to={"/"}>Home</Link>
-      <br />
-      <Link to="/styleguide/colors">Link to colors page like /color</Link>
+import React, { Component } from "react";
 
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Colors />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
-  );
+import Routes from "./routes";
+
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      appName: "WhatWhat!",
+      home: false,
+    };
+  }
+
+  render() {
+    return (
+      <div className="">
+        <div className="">
+          <Routes name={this.state.appName} />
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;
