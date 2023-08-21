@@ -31,16 +31,17 @@ module.exports = {
           DEFAULT: '#ff4007',
           dark: '#D23000',
         },
+        primary: '#ff4007', // poppy DEFAULT
+        success: {
+          light: '#F5FFEC',
+          DEFAULT: '#CFF0B2',
+          dark: '#489900',
+        },
         sky: {
           100: '#F5FBFF',
           light: '#D5F0FF',
           DEFAULT: '#3FACFB',
           dark: '#212962',
-        },
-        success: {
-          light: '#F5FFEC',
-          DEFAULT: '#CFF0B2',
-          dark: '#489900',
         },
       },
     },
