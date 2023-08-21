@@ -1,20 +1,16 @@
-import React from "react";
-//import styled from "styled-components";
+import React from 'react';
 
-const Swatch = ({ color, title, description }) => {
-  const swatchWrap = `@apply flex`;
-  const swatchColor = `@apply ${color} w-32 h-32 rounded-2xl`;
-  const swatchContent = `@apply flex flex-col justify-between`;
-  const swatchTitle = `@apply `;
-  const swatchDesc = `@apply text-sm`;
+const Swatch = ({ additionalClasses, color, name, value }) => {
+  const swatchWrap = `grid grid-cols-3 gap-3 mt-3 items-end`;
+  const swatchColor = `${color} w-16 h-8`;
+  const swatchCode = `font-mono`;
+  const swatchDesc = `font-sans text-sm`;
 
   return (
     <div className={swatchWrap}>
-      <span className={swatchColor}></span>
-      <div className={swatchContent}>
-        <p className={swatchTitle}>{title}</p>
-        <p className={swatchDesc}>{description}</p>
-      </div>
+      <div className={swatchColor}></div>
+      <code className={swatchCode}>{name}</code>
+      <p className={swatchDesc}>{value}</p>
     </div>
   );
 };
