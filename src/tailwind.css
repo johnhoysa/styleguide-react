@@ -1,3 +1,15 @@
+/* Tailwind  */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Fonts -> DM Mono, DM Sans, Noto Serif  */
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Noto+Serif:wght@300&display=swap');
+
+/* Styleguide layout  */
+@import "./css/layout/layout.css";
+
+/* Default styles to be moved later  */
+p {@apply text-base block font-serif}
+
+hr { @apply h-px my-3 bg-grey-300 border-0}
