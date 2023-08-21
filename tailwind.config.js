@@ -155,6 +155,16 @@ module.exports = {
         },
       ],
     },
+    screens: {
+      sm: '375px',
+      // => @media (min-width: 375px) { ... }
+      md: '800px',
+      // => @media (min-width: 800px) { ... }
+      lg: '1050px',
+      // => @media (min-width: 1050px) { ... }
+      xl: '1440px',
+      // => @media (min-width: 1440px) { ... }
+    },
   },
   plugins: [],
 };
