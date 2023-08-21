@@ -1,5 +1,5 @@
 .flex-container-parent {@apply flex  flex-col h-screen}
 .flex-container-content {@apply flex grow}
-.flex-container-content .sidebar {@apply flex h-full}
+.flex-container-content .sidebar {@apply flex h-full w-1/4 p-4}
 .flex-container-content .main {@apply grow}
 .flex-container-footer {@apply flex}
