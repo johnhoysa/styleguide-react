@@ -12,6 +12,17 @@
 
 /*  Style Guide styles to be organized  */
 .guide-heading { @apply text-base text-primary mt-10 font-mono}
+
 /* Type */
+/* Display Text */
+.display-one {@apply lg:text-8xl md:text-6xl sm:text-4xl}
+.display-two {@apply lg:text-7xl md:text-5xl sm:text-3xl}
+.display-three {@apply lg:text-6xl md:text-4xl sm:text-2xl}
+/* Heading Text */
+/* Subtitle Text */
+/* Body Text */
 p {@apply text-base block font-serif}
 hr { @apply h-px my-3 bg-grey-300 border-0}
+/* Button Text */
+/* Eyebrow Text */
+/* Menu Text */

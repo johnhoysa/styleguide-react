@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Heading = ({ color, fontFamily, size, Tag, text }) => {
-  const headingTitle = `text-3xl font-sans ${color} ${fontFamily} ${size}`;
+const Heading = ({ color, fontFamily, Tag, text, type }) => {
+  const headingTitle = `text-3xl font-sans ${color} ${fontFamily} ${type}`;
 
   return (
     <div>
