@@ -13,11 +13,29 @@ const Colors = () => {
       </div>
 
       <hr className="bg-gray-800"></hr>
-      <Swatch color="bg-sky" name="sky" value="#9C8EF1" />
+
+      <Swatch color="bg-poppy" name="poppy" value="#ff4007" />
       <hr></hr>
-      <Swatch color="bg-success" name="success" value="HEX #green" />
       <hr></hr>
-      <Swatch color="bg-success" name="success" value="HEX #green" />
+      <Swatch color="bg-poppy-light" name="poppy-light" value="#FFBBAD" />
+      <hr></hr>
+      <Swatch color="bg-poppy-dark" name="poppy-dark" value="#D23000" />
+      <hr></hr>
+      <Swatch
+        color="bg-white border border-slate-200"
+        name="white"
+        value="#ffffff"
+      />
+      <hr></hr>
+      <Swatch color="bg-black" name="black" value="#000000" />
+      <hr></hr>
+      <Swatch color="bg-sky" name="sky" value="#3FACFB" />
+      <hr></hr>
+      <Swatch color="bg-sky-100" name="sky-100" value="##F5FBFF" />
+      <hr></hr>
+      <Swatch color="bg-sky-light" name="sky-light" value="#D5F0FF" />
+      <hr></hr>
+      <Swatch color="bg-sky-dark" name="sky-dark" value="#212962" />
     </section>
   );
 };
