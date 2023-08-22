@@ -12,17 +12,27 @@
 
 /*  Style Guide styles to be organized  */
 .guide-heading { @apply text-base text-primary mt-10 font-mono}
+hr { @apply h-px my-3 bg-grey-300 border-0}
 
 /* Type */
 /* Display Text */
-.display-one {@apply lg:text-8xl md:text-6xl sm:text-4xl}
-.display-two {@apply lg:text-7xl md:text-5xl sm:text-3xl}
-.display-three {@apply lg:text-6xl md:text-4xl sm:text-2xl}
+.display-lg {@apply lg:text-8xl md:text-6xl sm:text-4xl}
+.display-primary {@apply lg:text-7xl md:text-5xl sm:text-3xl}
+.display-sm {@apply lg:text-6xl md:text-4xl sm:text-2xl}
 /* Heading Text */
 /* Subtitle Text */
 /* Body Text */
-p {@apply text-base block font-serif}
-hr { @apply h-px my-3 bg-grey-300 border-0}
+p,span {@apply font-serif text-black}
+.body-lg {@apply lg:text-xl md:text-xl sm:text-lg}
+.body-primary {@apply text-base}
+.body-sm {@apply lg:text-sm md:text-sm sm:text-xs}
 /* Button Text */
+.button {@apply font-sans font-bold text-secondary}
+.button-xl {@apply lg:text-xl md:text-xl sm:text-lg}
+.button-primary,.button-md {@apply lg:text-lg md:text-lg sm:text-base}
+.button-md {}
+.button-sm {@apply lg:text-base md:text-base sm:text-sm}
+.button-xs {@apply lg:text-sm md:text-sm sm:text-xs}
+
 /* Eyebrow Text */
 /* Menu Text */
