@@ -48,7 +48,7 @@ module.exports = {
     },
     fontFamily: {
       sans: ['dm-sans', ...defaultTheme.fontFamily.sans],
-      serif: ['noto-serif', ...defaultTheme.fontFamily.serif],
+      serif: ['merriweather', ...defaultTheme.fontFamily.serif],
       mono: ['dm-mono', ...defaultTheme.fontFamily.mono],
     },
     fontSize: {
