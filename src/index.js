@@ -5,6 +5,7 @@ import Layout from './Layout';
 // Route to page
 import Buttons from './styleguide/Buttons';
 import Colors from './styleguide/Colors';
+import Forms from './styleguide/Forms';
 import Typography from './styleguide/Typography';
 
 import NoPage from './styleguide/NoPage';
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/" element={<Layout />}>
           <Route path="buttons" element={<Buttons />} />
           <Route path="colors" element={<Colors />} />
+          <Route path="forms" element={<Forms />} />
           <Route path="typography" element={<Typography />} />
           <Route path="*" element={<NoPage />} />
         </Route>

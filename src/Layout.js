@@ -25,6 +25,9 @@ const Layout = () => {
                 <li>
                   <Link to="/buttons">Buttons</Link>
                 </li>
+                <li>
+                  <Link to="/forms">Forms</Link>
+                </li>
               </ul>
             </li>
           </ul>
