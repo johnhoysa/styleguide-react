@@ -13,21 +13,21 @@ const Typography = () => {
       <Heading
         Tag="h1"
         color="text-secondary"
-        text="Display Large: Noto Serif 120px"
+        text="Display Large: Merriweather Serif 120px"
         fontFamily="font-serif"
         type="display-lg"
       />
       <Heading
         Tag="h2"
         color="text-secondary"
-        text="Display Default: Noto Serif 80px"
+        text="Display Default: Merriweather Serif 80px"
         fontFamily="font-serif"
         type="display-default"
       />
       <Heading
         Tag="h2"
         color="text-secondary"
-        text="Display Small: Noto Serif 80px"
+        text="Display Small: Merriweather Serif 80px"
         fontFamily="font-serif"
         type="display-sm"
       />
