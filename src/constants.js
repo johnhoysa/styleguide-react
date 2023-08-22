@@ -1,3 +1,3 @@
-const ProjectName = 'State Design System';
+const ProjectName = 'Suture Spark Design System';
 
 export { ProjectName };
