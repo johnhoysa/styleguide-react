@@ -45,27 +45,27 @@ const Typography = () => {
       <Text
         Tag="p"
         text="Button Xl: DM Sans Bold, 20px"
-        type="button-text-xl"
+        type="button-xl !p-0"
       />
       <Text
         Tag="p"
         text="Button Default: DM Sans Regular, 18px"
-        type="button-text-default"
+        type="button-default !p-0"
       />
       <Text
         Tag="p"
         text="Button Md: DM Sans Bold, 18px"
-        type="button-text-md"
+        type="button-md !p-0"
       />
       <Text
         Tag="p"
         text="Button Sm: DM Sans Bold, 16px"
-        type="button-text-sm"
+        type="button-sm !p-0"
       />
       <Text
         Tag="p"
         text="Button Xs: DM Sans Bold, 14px"
-        type="button-text-xs"
+        type="button-xs !p-0"
       />
     </div>
   );
