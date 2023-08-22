@@ -16,7 +16,6 @@ const Colors = () => {
 
       <Swatch color="bg-poppy" name="poppy" value="#ff4007" />
       <hr></hr>
-      <hr></hr>
       <Swatch color="bg-poppy-light" name="poppy-light" value="#FFBBAD" />
       <hr></hr>
       <Swatch color="bg-poppy-dark" name="poppy-dark" value="#D23000" />

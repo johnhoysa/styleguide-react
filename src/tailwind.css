@@ -6,33 +6,53 @@
 /* Fonts -> DM Mono, DM Sans, Noto Serif  */
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Noto+Serif:wght@300&display=swap');
 
-/* Styleguide layout  */
-@import "./css/layout/layout.css";
- 
-
-/*  Style Guide styles to be organized  */
+/* Styleguide layout and styles  */
 .guide-heading { @apply text-base text-primary mt-10 font-mono}
 hr { @apply h-px my-3 bg-grey-300 border-0}
-
+@import "./css/layout/layout.css";
+ 
+/* Component CSS to be organized */
 /* Type */
 /* Display Text */
 .display-lg {@apply lg:text-8xl md:text-6xl sm:text-4xl}
-.display-primary {@apply lg:text-7xl md:text-5xl sm:text-3xl}
+.display-default {@apply lg:text-7xl md:text-5xl sm:text-3xl}
 .display-sm {@apply lg:text-6xl md:text-4xl sm:text-2xl}
 /* Heading Text */
 /* Subtitle Text */
 /* Body Text */
 p,span {@apply font-serif text-black}
 .body-lg {@apply lg:text-xl md:text-xl sm:text-lg}
-.body-primary {@apply text-base}
+.body-default {@apply text-base}
 .body-sm {@apply lg:text-sm md:text-sm sm:text-xs}
-/* Button Text */
-.button {@apply font-sans font-bold text-secondary}
-.button-xl {@apply lg:text-xl md:text-xl sm:text-lg}
-.button-primary,.button-md {@apply lg:text-lg md:text-lg sm:text-base}
-.button-md {}
-.button-sm {@apply lg:text-base md:text-base sm:text-sm}
-.button-xs {@apply lg:text-sm md:text-sm sm:text-xs}
 
-/* Eyebrow Text */
-/* Menu Text */
+/* Buttons */
+.button {@apply font-sans font-bold leading-none}
+/* Button Styles */
+.button-primary {
+  @apply bg-primary text-white 
+  hover:bg-[#FF521F] hover:drop-shadow-md 
+  focus:bg-[#FF6436]
+  active:bg-[#E43500]
+  disabled:bg-[#FFBBAD]
+}
+.button-secondary {
+  @apply bg-black text-white 
+  hover:bg-[#323232] hover:drop-shadow-md
+  focus:bg-[#575757]
+  active:bg-[#3C3C3C]
+  disabled:bg-[#E5E5E5] disabled:text-[#B3B3B3]
+}
+.button-outlined {
+  @apply bg-white border border-black text-black
+   hover:drop-shadow-md
+  focus:bg-[#E5E5E5]
+  active:bg-[#e5e5e5] active:border
+  disabled:bg-[#ffffff] disabled:text-[#B3B3B3] disabled:border-[#B3B3B3]
+}
+
+/* Button Padding and Font Sizes */
+.button-xl {@apply py-4 px-6 rounded-[48px] lg:text-xl md:text-xl sm:text-lg w-full}
+.button-default {@apply py-3 px-6 rounded-xl lg:text-lg md:text-lg sm:text-base}
+.button-md {@apply py-2 px-4 rounded-lg lg:text-lg md:text-lg sm:text-base}
+.button-sm {@apply py-2 px-4 rounded-lg lg:text-base md:text-base sm:text-sm}
+.button-xs {@apply py-1 px-4 rounded-md lg:text-sm md:text-sm sm:text-xs}

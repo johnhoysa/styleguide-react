@@ -13,23 +13,23 @@ const Typography = () => {
       <Heading
         Tag="h1"
         color="text-secondary"
-        text="Display 1: Noto Serif 120px"
+        text="Display Large: Noto Serif 120px"
         fontFamily="font-serif"
-        type="display-one"
+        type="display-lg"
       />
       <Heading
         Tag="h2"
         color="text-secondary"
-        text="Display 2: Noto Serif 80px"
+        text="Display Default: Noto Serif 80px"
         fontFamily="font-serif"
-        type="display-two"
+        type="display-default"
       />
       <Heading
         Tag="h2"
         color="text-secondary"
-        text="Display 3: Noto Serif 80px"
+        text="Display Small: Noto Serif 80px"
         fontFamily="font-serif"
-        type="display-three"
+        type="display-sm"
       />
 
       <h5 className="mt-4 guide-heading">Body Text</h5>
@@ -37,20 +37,36 @@ const Typography = () => {
       <Text
         Tag="p"
         text="Body Primary: DM Sans Regular, 16px"
-        type="body-primary"
+        type="body-default"
       />
       <Text Tag="p" text="Body Small: DM Sans Regular, 14px" type="body-sm" />
 
       <h5 className="mt-4 guide-heading">Button Text</h5>
-      <Text Tag="p" text="Button Xl: DM Sans Bold, 20px" type="button-xl" />
       <Text
         Tag="p"
-        text="Button Primary: DM Sans Regular, 18px"
-        type="button-primary"
+        text="Button Xl: DM Sans Bold, 20px"
+        type="button-text-xl"
       />
-      <Text Tag="p" text="Button Md: DM Sans Bold, 18px" type="button-md" />
-      <Text Tag="p" text="Button Sm: DM Sans Bold, 16px" type="button-sm" />
-      <Text Tag="p" text="Button Xs: DM Sans Bold, 14px" type="button-xs" />
+      <Text
+        Tag="p"
+        text="Button Default: DM Sans Regular, 18px"
+        type="button-text-default"
+      />
+      <Text
+        Tag="p"
+        text="Button Md: DM Sans Bold, 18px"
+        type="button-text-md"
+      />
+      <Text
+        Tag="p"
+        text="Button Sm: DM Sans Bold, 16px"
+        type="button-text-sm"
+      />
+      <Text
+        Tag="p"
+        text="Button Xs: DM Sans Bold, 14px"
+        type="button-text-xs"
+      />
     </div>
   );
 };
