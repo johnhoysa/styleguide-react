@@ -8,8 +8,10 @@
 
 /* Styleguide layout  */
 @import "./css/layout/layout.css";
+ 
 
-/* Default styles to be moved later  */
+/*  Style Guide styles to be organized  */
+.guide-heading { @apply text-base text-primary mt-10 font-mono}
+/* Type */
 p {@apply text-base block font-serif}
-
 hr { @apply h-px my-3 bg-grey-300 border-0}

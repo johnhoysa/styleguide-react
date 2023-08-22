@@ -31,17 +31,19 @@ module.exports = {
           DEFAULT: '#ff4007',
           dark: '#D23000',
         },
+        primary: '#ff4007', // poppy DEFAULT
+        success: {
+          light: '#F5FFEC',
+          DEFAULT: '#CFF0B2',
+          dark: '#489900',
+        },
         sky: {
           100: '#F5FBFF',
           light: '#D5F0FF',
           DEFAULT: '#3FACFB',
           dark: '#212962',
         },
-        success: {
-          light: '#F5FFEC',
-          DEFAULT: '#CFF0B2',
-          dark: '#489900',
-        },
+        secondary: '#000000', // Black
       },
     },
     fontFamily: {
@@ -154,6 +156,16 @@ module.exports = {
           fontWeight: '300',
         },
       ],
+    },
+    screens: {
+      sm: '375px',
+      // => @media (min-width: 375px) { ... }
+      md: '800px',
+      // => @media (min-width: 800px) { ... }
+      lg: '1050px',
+      // => @media (min-width: 1050px) { ... }
+      xl: '1440px',
+      // => @media (min-width: 1440px) { ... }
     },
   },
   plugins: [],

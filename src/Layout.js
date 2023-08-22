@@ -1,4 +1,4 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, Link } from 'react-router-dom';
 
 const Layout = () => {
   return (
@@ -6,8 +6,18 @@ const Layout = () => {
       <div className="flex-container-content">
         <div className="sidebar">
           <ul>
+            <li>LOGO Needed</li>
+            <li>About Page Needed?</li>
             <li>
-              <Link to="/colors">Colors</Link>
+              Design System
+              <ul>
+                <li>
+                  <Link to="/colors">Colors</Link>
+                </li>
+                <li>
+                  <Link to="/typography">Typography</Link>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
