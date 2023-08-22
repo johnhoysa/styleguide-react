@@ -43,6 +43,7 @@ module.exports = {
           DEFAULT: '#3FACFB',
           dark: '#212962',
         },
+        secondary: '#000000', // Black
       },
     },
     fontFamily: {
