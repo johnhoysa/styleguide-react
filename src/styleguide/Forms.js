@@ -10,10 +10,10 @@ const Form = () => {
       <TitleBar title="Form" />
 
       <InputField
-        icon={MdVisibility}
-        name="fieldName"
-        labelText="Cool Label for field"
-        placeholder="Cool Placeholder"
+        icon={<MdVisibility />}
+        name="username"
+        labelText="Username"
+        placeholder=""
         type="text"
       />
     </section>

@@ -1,5 +1,5 @@
 import React from 'react';
-// import React, { useState } from 'react';
+
 const InputField = ({ icon, name, labelText, type, placeholder }) => {
   const textContent = `text-3xl font-sans ${type}`;
 
@@ -15,6 +15,7 @@ const InputField = ({ icon, name, labelText, type, placeholder }) => {
         name={name}
         placeholder={placeholder}
       />
+      {icon}
     </div>
   );
 };
