@@ -19,6 +19,17 @@ const Layout = () => {
                 </li>
               </ul>
             </li>
+            <li>
+              Components
+              <ul>
+                <li>
+                  <Link to="/buttons">Buttons</Link>
+                </li>
+                <li>
+                  <Link to="/forms">Forms</Link>
+                </li>
+              </ul>
+            </li>
           </ul>
         </div>
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import TitleBar from '../components/TitleBar.js';
 import Heading from '../components/Heading.js';
+import Text from '../components/Text.js';
 
 const Typography = () => {
   return (
@@ -11,24 +12,60 @@ const Typography = () => {
       <h5 className="guide-heading">Display Text</h5>
       <Heading
         Tag="h1"
-        size="text-8xl"
         color="text-secondary"
-        text="Display 1: Noto Serif 120px"
+        text="Display Large: Noto Serif 120px"
         fontFamily="font-serif"
+        type="display-lg"
       />
       <Heading
         Tag="h2"
-        size="text-7xl"
         color="text-secondary"
-        text="Display 2: Noto Serif 80px"
+        text="Display Default: Noto Serif 80px"
         fontFamily="font-serif"
+        type="display-default"
       />
       <Heading
         Tag="h2"
-        size="text-6xl"
         color="text-secondary"
-        text="Display 3: Noto Serif 80px"
+        text="Display Small: Noto Serif 80px"
         fontFamily="font-serif"
+        type="display-sm"
+      />
+
+      <h5 className="mt-4 guide-heading">Body Text</h5>
+      <Text Tag="p" text="Body Large: DM Sans Regular, 20px" type="body-lg" />
+      <Text
+        Tag="p"
+        text="Body Primary: DM Sans Regular, 16px"
+        type="body-default"
+      />
+      <Text Tag="p" text="Body Small: DM Sans Regular, 14px" type="body-sm" />
+
+      <h5 className="mt-4 guide-heading">Button Text</h5>
+      <Text
+        Tag="p"
+        text="Button Xl: DM Sans Bold, 20px"
+        type="button-text-xl"
+      />
+      <Text
+        Tag="p"
+        text="Button Default: DM Sans Regular, 18px"
+        type="button-text-default"
+      />
+      <Text
+        Tag="p"
+        text="Button Md: DM Sans Bold, 18px"
+        type="button-text-md"
+      />
+      <Text
+        Tag="p"
+        text="Button Sm: DM Sans Bold, 16px"
+        type="button-text-sm"
+      />
+      <Text
+        Tag="p"
+        text="Button Xs: DM Sans Bold, 14px"
+        type="button-text-xs"
       />
     </div>
   );
