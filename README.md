@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-My first React.js App, more details soon!
+This project can be [viewed here](https://johnhoysa.github.io/styleguide-react/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
