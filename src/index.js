@@ -8,7 +8,7 @@ import Colors from './styleguide/Colors';
 import Forms from './styleguide/Forms';
 import Typography from './styleguide/Typography';
 
-import NoPage from './styleguide/NoPage';
+import NoPage from './404';
 import './tailwind.css';
 
 export default function App() {
