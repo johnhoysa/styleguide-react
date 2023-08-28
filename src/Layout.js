@@ -1,12 +1,16 @@
 import { Outlet, Link } from 'react-router-dom';
 
+import ProjectLogo from './assets/logos/suture-logo.png';
+
 const Layout = () => {
   return (
     <div className="flex-container-parent">
       <div className="flex-container-content">
         <div className="sidebar">
           <ul>
-            <li>LOGO Needed Here</li>
+            <li>
+              <img src={ProjectLogo} alt="fireSpot" />
+            </li>
             <li>
               <Link to="/index">Home</Link>
             </li>
