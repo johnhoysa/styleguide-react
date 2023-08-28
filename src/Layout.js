@@ -6,8 +6,10 @@ const Layout = () => {
       <div className="flex-container-content">
         <div className="sidebar">
           <ul>
-            <li>LOGO Needed</li>
-            <li>About Page Needed?</li>
+            <li>LOGO Needed Here</li>
+            <li>
+              <Link to="/index">Home</Link>
+            </li>
             <li>
               Design System
               <ul>
@@ -33,9 +35,9 @@ const Layout = () => {
           </ul>
         </div>
 
-        <div className="main">
+        <main className="container main">
           <Outlet />
-        </div>
+        </main>
       </div>
       <div className="flex-container-footer">Footer content</div>
     </div>
