@@ -7,7 +7,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Merriweather:wght@300&display=swap');
 
 /* Styleguide layout and styles to be organized */
-.guide-heading { @apply text-base text-primary mt-10 font-mono}
+.guide-heading { @apply text-base text-primary mt-10 pl-3 font-mono}
+.guide-section {@apply p-3 pt-1}
+.guide-section-heading {@apply text-base text-primary mt-10 font-mono}
 hr { @apply h-px my-3 bg-grey-300 border-0}
 @import "./css/layout/layout.css";
 

@@ -7,9 +7,10 @@ import Buttons from './styleguide/Buttons';
 import Colors from './styleguide/Colors';
 import Forms from './styleguide/Forms';
 import Typography from './styleguide/Typography';
-
+// Route to Pages
 import Home from './Home';
 import NoPage from './404';
+// Import CSS
 import './tailwind.css';
 
 export default function App() {
