@@ -6,17 +6,21 @@ import InputField from '../components/Input.js';
 
 const Form = () => {
   return (
-    <section>
-      <TitleBar title="Form" />
-
-      <InputField
-        icon={<MdVisibility />}
-        name="username"
-        labelText="Username"
-        placeholder=""
-        type="text"
-      />
-    </section>
+    <>
+      <section>
+        <TitleBar title="Forms" />
+        <h5 className="guide-heading">Login Example</h5>
+      </section>
+      <section className="guide-section">
+        <InputField
+          icon={<MdVisibility />}
+          name="username"
+          labelText="Username"
+          placeholder=""
+          type="text"
+        />
+      </section>
+    </>
   );
 };
 

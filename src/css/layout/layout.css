@@ -1,8 +1,15 @@
 .flex-container-parent {@apply flex  flex-col h-screen}
-.flex-container-content {@apply flex grow}
-.flex-container-content .sidebar {@apply flex h-full w-1/4 p-4}
-.flex-container-content .sidebar ul > li {@apply text-base font-serif mt-1 }
-.flex-container-content .sidebar ul > li > ul > li {@apply text-xs font-mono pl-2}
+.flex-container-content {@apply flex grow justify-start }
+
+.flex-container-content .sidebar {@apply flex flex-col h-full p-4 w-64 sm:hidden md:flex}
+
+.flex-container-content .sidebar .logo {@apply flex w-full justify-between items-center pt-[76px]}
+.flex-container-content .sidebar .logo img{ @apply w-20 h-full}
+
+.flex-container-content .sidebar nav { @apply w-auto h-full pt-4}
+.flex-container-content .sidebar ul > li {@apply text-sm font-serif mt-3 }
+.flex-container-content .sidebar ul > li > ul > li {@apply text-xs font-mono pl-2 mt-1}
 .flex-container-content .sidebar ul > li > ul > li a {@apply text-primary }
-.flex-container-content .main {@apply grow}
+
+.flex-container-content .main {@apply grow w-full}
 .flex-container-footer {@apply flex}
