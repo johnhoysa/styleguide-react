@@ -16,7 +16,7 @@ hr { @apply h-px my-3 bg-grey-300 border-0}
 /* Component CSS to be organized */
 /* Forms */
 .label {@apply block }
-.input {@apply block border border-grey-300 rounded-xl}
+.input {@apply block border border-grey-300 rounded-md}
 
 /* Type */
 /* Display Text */
@@ -59,7 +59,7 @@ p,span {@apply font-serif text-black}
 
 /* Button Padding and Font Sizes */
 .button-xl {@apply py-4 px-6 rounded-[48px] lg:text-xl md:text-xl sm:text-lg w-full}
-.button-default {@apply py-3 px-6 rounded-xl lg:text-lg md:text-lg sm:text-base}
-.button-md {@apply py-2 px-4 rounded-lg lg:text-lg md:text-lg sm:text-base}
-.button-sm {@apply py-2 px-4 rounded-lg lg:text-base md:text-base sm:text-sm}
+.button-default {@apply py-3 px-6 rounded-md lg:text-lg md:text-lg sm:text-base}
+.button-md {@apply py-2 px-4 rounded-md lg:text-lg md:text-lg sm:text-base}
+.button-sm {@apply py-2 px-4 rounded-md lg:text-base md:text-base sm:text-sm}
 .button-xs {@apply py-1 px-4 rounded-md lg:text-sm md:text-sm sm:text-xs}
