@@ -3,8 +3,6 @@ import Swatch from '../components/Swatch.js';
 import { swatchData } from '../data/colors.js';
 import TitleBar from '../components/TitleBar.js';
 
-console.log('what is swatchData? ', swatchData);
-
 const Colors = () => {
   return (
     <>
