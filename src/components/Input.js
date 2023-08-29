@@ -1,19 +1,27 @@
 import React from 'react';
 
-const InputField = ({ icon, name, labelText, type, placeholder }) => {
-  const textContent = `text-3xl font-sans ${type}`;
-
+const InputField = ({
+  checked,
+  icon,
+  name,
+  labelText,
+  placeholder,
+  required,
+  type,
+}) => {
   return (
     <div className="pt-2">
-      <label className="label" for={name}>
+      <label className="label" htmlFor={name}>
         {labelText}
       </label>
       <input
         className="input"
+        checked={checked}
         type={type}
         id={name}
         name={name}
         placeholder={placeholder}
+        required={required}
       />
       {icon}
     </div>

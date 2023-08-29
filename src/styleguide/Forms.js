@@ -1,27 +1,63 @@
 import React from 'react';
-import { MdVisibility } from 'react-icons/md';
-
 import TitleBar from '../components/TitleBar.js';
 import InputField from '../components/Input.js';
 
-const Form = () => {
+export default function Form() {
+  const [formData, setFormData] = React.useState({
+    userName: '',
+    email: '',
+    password: '',
+    saveLogin: true,
+  });
+
+  // console.log(formData);
+
+  function handleChange(event) {
+    const { checked, name, type, value } = event.target;
+    setFormData((prevFormData) => {
+      return {
+        ...prevFormData,
+        [name]: type === 'checkbox' ? checked : value,
+      };
+    });
+  }
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    // This is where information would usually be submitted to an API:
+    console.log(formData);
+  }
+
   return (
     <>
       <section>
         <TitleBar title="Forms" />
-        <h5 className="guide-heading">Login Example</h5>
+        <h5 className="guide-heading">Signup Example</h5>
       </section>
-      <section className="guide-section">
+
+      <form onSubmit={handleSubmit}>
         <InputField
-          icon={<MdVisibility />}
+          icon=""
           name="username"
           labelText="Username"
           placeholder=""
+          required={true}
           type="text"
+          onChange={handleChange}
         />
-      </section>
+
+        <InputField
+          icon=""
+          name="email"
+          labelText="Email"
+          placeholder=""
+          required={true}
+          type="text"
+          onChange={handleChange}
+        />
+
+        <button>Sign Up</button>
+      </form>
     </>
   );
-};
-
-export default Form;
+}
