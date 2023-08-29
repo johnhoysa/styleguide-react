@@ -1,6 +1,8 @@
 import React from 'react';
+//
 import TitleBar from '../components/TitleBar.js';
 import InputField from '../components/Input.js';
+import Button from '../components/Button.js';
 
 export default function Form() {
   const [formData, setFormData] = React.useState({
@@ -56,7 +58,11 @@ export default function Form() {
           onChange={handleChange}
         />
 
-        <button>Sign Up</button>
+        <Button
+          label="Sign Up"
+          size="button-default"
+          look="button-primary  mt-6"
+        />
       </form>
     </>
   );
