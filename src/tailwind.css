@@ -13,22 +13,10 @@
 hr { @apply h-px my-3 bg-grey-300 border-0}
 @import "./css/layout/layout.css";
 
-
-
-
 /* Component CSS to be organized */
 /* Forms */
 .label {@apply block }
 .input {@apply block border border-grey-300 rounded-xl}
-
-
-
-
-
-
-
-
-
 
 /* Type */
 /* Display Text */
@@ -44,7 +32,8 @@ p,span {@apply font-serif text-black}
 .body-sm {@apply lg:text-sm md:text-sm sm:text-xs}
 
 /* Buttons */
-.button {@apply font-sans font-bold leading-none}
+.button {@apply font-sans font-bold leading-none hover:-translate-y-0.5}
+
 /* Button Styles */
 .button-primary {
   @apply bg-primary text-white 

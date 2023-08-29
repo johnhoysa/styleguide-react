@@ -1,11 +1,11 @@
 import React from 'react';
 
 const Button = ({ disableBtn, label, look, size }) => {
-  const headingTitle = `button ${size} ${look}`;
+  let headingTitle = `button ${size} ${look} hover:-translate-y-0.5`;
 
   if (disableBtn === 'true') {
     disableBtn = 'disabled';
-    console.log('what is this?', disableBtn);
+    headingTitle += `button-disabled cursor-default hover:drop-shadow-none hover:-translate-y-0`;
   }
 
   return (

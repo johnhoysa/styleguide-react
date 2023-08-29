@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Swatch = ({ additionalClasses, color, name, value }) => {
+const Swatch = ({ color, name, value }) => {
   const swatchWrap = `grid grid-cols-3 gap-3 mt-3 items-end`;
   const swatchColor = `${color} w-16 h-8`;
   const swatchCode = `font-mono`;
