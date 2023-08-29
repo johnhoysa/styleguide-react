@@ -7,7 +7,7 @@ const Buttons = () => {
     <>
       <section>
         <TitleBar title="Buttons" />
-        <h5 className="guide-heading">Button Default Enabled</h5>
+        <h5 className="guide-heading">Button Enabled</h5>
       </section>
       <section className="guide-section">
         <div className="grid grid-cols-3 gap-3 mt-6">
@@ -34,7 +34,7 @@ const Buttons = () => {
           </span>
         </div>
 
-        <h5 className="guide-section-heading">Button Default Disabled</h5>
+        <h5 className="guide-section-heading">Button Disabled</h5>
         <div className="grid grid-cols-3 gap-3 mt-6">
           <span className="">
             <Button
