@@ -1,6 +1,5 @@
 /* Buttons */
-.button {@apply font-sans font-bold leading-none hover:-translate-y-0.5}
-
+.button {@apply font-sans font-bold leading-none hover:drop-shadow-md hover:-translate-y-0.5 disabled:hover:drop-shadow-none disabled:-translate-y-0}
 /* Button Styles */
 .button-primary {
   @apply bg-primary text-white 
