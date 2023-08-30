@@ -1,3 +1,4 @@
+/* style guide  layout, Layout.js */
 .flex-container-parent {@apply flex  flex-col h-screen}
 .flex-container-content {@apply flex grow justify-start }
 
@@ -13,3 +14,12 @@
 
 .flex-container-content .main {@apply grow w-full}
 .flex-container-footer {@apply flex}
+
+/* style guide custom properties */
+/* Type */
+.guide-heading { @apply text-base text-primary mt-10 pl-3 font-mono}
+.guide-section {@apply p-3 pt-1}
+.guide-section-heading {@apply text-base text-primary mt-10 font-mono}
+
+/* Misc */
+hr { @apply h-px my-3 bg-grey-300 border-0}

@@ -11,7 +11,7 @@ import Typography from './styleguide/Typography';
 import Home from './Home';
 import NoPage from './404';
 // Import CSS
-import './tailwind.css';
+import './App.css';
 
 export default function App() {
   return (
