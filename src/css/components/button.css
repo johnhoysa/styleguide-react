@@ -1,0 +1,32 @@
+/* Buttons */
+.button {@apply font-sans font-bold leading-none hover:-translate-y-0.5}
+
+/* Button Styles */
+.button-primary {
+  @apply bg-primary text-white 
+  hover:bg-[#FF521F] hover:drop-shadow-md 
+  focus:bg-[#FF6436]
+  active:bg-[#E43500]
+  disabled:bg-[#FFBBAD]
+}
+.button-secondary {
+  @apply bg-black text-white 
+  hover:bg-[#323232] hover:drop-shadow-md
+  focus:bg-[#575757]
+  active:bg-[#3C3C3C]
+  disabled:bg-[#E5E5E5] disabled:text-[#B3B3B3]
+}
+.button-outlined {
+  @apply bg-white border border-black text-black
+   hover:drop-shadow-md
+  focus:bg-[#E5E5E5]
+  active:bg-[#e5e5e5] active:border
+  disabled:bg-[#ffffff] disabled:text-[#B3B3B3] disabled:border-[#B3B3B3]
+}
+
+/* Button Padding and Font Sizes */
+.button-xl {@apply py-4 px-6 rounded-[48px] lg:text-xl md:text-xl sm:text-lg w-full}
+.button-default {@apply py-3 px-6 rounded-md lg:text-lg md:text-lg sm:text-base}
+.button-md {@apply py-2 px-4 rounded-md lg:text-lg md:text-lg sm:text-base}
+.button-sm {@apply py-2 px-4 rounded-md lg:text-base md:text-base sm:text-sm}
+.button-xs {@apply py-1 px-4 rounded-md lg:text-sm md:text-sm sm:text-xs}
