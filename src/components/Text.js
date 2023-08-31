@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Text = ({ Tag, text, type }) => {
-  const textContent = `text-3xl font-sans ${type}`;
+  const textContent = `font-sans ${type}`;
 
   return (
     <div>

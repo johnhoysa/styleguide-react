@@ -15,9 +15,9 @@ const InputField = ({
         {labelText}
       </label>
       <input
+        type={type}
         className="input"
         checked={checked}
-        type={type}
         id={name}
         name={name}
         placeholder={placeholder}

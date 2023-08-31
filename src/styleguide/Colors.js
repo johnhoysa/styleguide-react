@@ -18,13 +18,13 @@ const Colors = () => {
           <span className="">Value</span>
         </div>
 
-        <hr className="bg-gray-800"></hr>
+        <hr className="bg-gray-800 "></hr>
 
         {swatchData.map((data, key) => {
           return (
             <div key={key}>
               <Swatch color={data.color} name={data.name} value={data.value} />
-              <hr></hr>
+              <hr className="mt-3"></hr>
             </div>
           );
         })}
