@@ -28,7 +28,7 @@ const Typography = () => {
         <Heading
           Tag="h2"
           color="text-secondary"
-          text="Display Small: Merriweather Serif 80px"
+          text="Display Small: Merriweather Serif 64px"
           fontFamily="font-serif"
           type="display-sm"
         />
