@@ -1,14 +1,27 @@
 /* Type */
-/* Fonts -> DM Mono, DM Sans, Merriweather Serif  */
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Merriweather:wght@300&display=swap');
 /* Display Text */
-.display-lg {@apply lg:text-8xl md:text-6xl sm:text-4xl}
-.display-default {@apply lg:text-7xl md:text-5xl sm:text-3xl}
-.display-sm {@apply lg:text-6xl md:text-4xl sm:text-2xl}
+.display-lg {
+  @apply lg:text-8xl md:text-6xl sm:text-4xl;
+}
+.display-default {
+  @apply lg:text-7xl md:text-5xl sm:text-3xl;
+}
+.display-sm {
+  @apply lg:text-6xl md:text-4xl sm:text-2xl;
+}
 /* Heading Text */
 /* Subtitle Text */
 /* Body Text */
-p,span {@apply font-serif text-black}
-.body-lg {@apply lg:text-xl md:text-xl sm:text-lg}
-.body-default {@apply text-base}
-.body-sm {@apply lg:text-sm md:text-sm sm:text-xs}
+p,
+span {
+  @apply font-serif text-black;
+}
+.body-lg {
+  @apply lg:text-xl md:text-xl sm:text-lg;
+}
+.body-default {
+  @apply text-base;
+}
+.body-sm {
+  @apply lg:text-sm md:text-sm sm:text-xs;
+}
