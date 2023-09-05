@@ -6,7 +6,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      appName: 'State Design System',
+      appName: 'Suture Design System',
       home: false,
     };
   }
